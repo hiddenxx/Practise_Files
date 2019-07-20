@@ -1,0 +1,8 @@
+{Id : $id , Name : $name , Subject : $subject , Marks : $marks}
+{Id : 101 , Name : Santosh , Subject : Maths , Marks : 35}
+{Id : 101 , Name : Santosh , Subject : Hindi , Marks : 30}
+{Id : 101 , Name : Santosh , Subject : Maths , Marks : 35}
+{Id : 101 , Name : Santosh , Subject : Hindi , Marks : 30}
+{Id : 101 , Name : Santosh , Subject : Maths , Marks : 35}
+{Id : 101 , Name : Santosh , Subject : Hindi , Marks : 30}
+Total : 195
