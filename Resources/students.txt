@@ -1,5 +1,5 @@
-101,Santosh,Maths,35
-102,Hina,English,41
-101,Santosh,Hindi,30
-103,Someone,Something,40
-104,Random,MoreRandom,40
+<Subject>,<Rollno>,<studName>,<Marks>
+maths,101,santosh,30
+hindi,102,hina,30
+maths,101,santosh,33
+hindi,104,random,33

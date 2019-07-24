@@ -1,0 +1,1 @@
+{id#<rollno>}#marks:<marks>-name:<studname>#subject#<subject>}

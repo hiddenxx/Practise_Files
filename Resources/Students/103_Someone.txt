@@ -1,5 +1,0 @@
-{Id : $id , Name : $name , Subject : $subject , Marks : $marks}
-{Id : 103 , Name : Someone , Subject : Something , Marks : 40}
-{Id : 103 , Name : Someone , Subject : Something , Marks : 40}
-{Id : 103 , Name : Someone , Subject : Something , Marks : 40}
-Total : 120

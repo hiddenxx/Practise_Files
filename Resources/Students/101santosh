@@ -1,0 +1,4 @@
+{id#<rollno>}#marks:<marks>-name:<studname>#subject#<subject>}
+{id#101}#marks:30-name:santosh#subject#maths}
+{id#101}#marks:33-name:santosh#subject#maths}
+Total : 63
