@@ -1,3 +1,4 @@
 {id#<rollno>}#marks:<marks>-name:<studname>#subject#<subject>}
 {id#104}#marks:33-name:random#subject#hindi}
-Total : 33
+{id#104}#marks:33-name:random#subject#hindi}
+Total : 66

@@ -34,15 +34,14 @@ class Student():
             if re.search("mark",l) :
                 return int(self.student_data[l])
 
-    def display_all(self):
-        pattern = re.compile(r"(<[a-zA-z0-9.]+>)",re.IGNORECASE)
-        # matches = re.finditer(pattern, template_report.lower())
-        # for matchNum , match in enumerate(matches) :
-        #     print(f"{matchNum}.{match.group().strip()}:{match.start()}.{match.end()}")
+    def display(self):
+        pattern = re.compile(r"(<[a-zA-z0-9.]+>)",re.IGNORECASE) # Find <Variables>
         matches = pattern.findall(template_report)
-        result = re.sub(pattern, r'$[\g<1>]', template_report)
+        result = re.sub(pattern, r'$[\g<1>]', template_report) #Replace <Variables> to $[<Variables>]
         result1 = re.sub(r'\$\[([^\]]*)\]',lambda x:self.student_data.get(x.group(1)),result)
-
+        """
+        \[([^\]]) - Find all the characters inside []
+        """
         return result1
 
 
@@ -68,7 +67,7 @@ class Student():
             lines = fp.readlines()
             total = 0
         with open(self.file_path , mode ='w') as fp :
-            lines.insert(len(lines)-1,self.display_all())
+            lines.insert(len(lines)-1,self.display())
             value = self.get_marks()
             total = int(lines[-1].split(":")[1])
             total += value
