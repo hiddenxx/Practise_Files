@@ -28,7 +28,7 @@ class Student():
         for l in self.keylist :
             if re.search("roll|name|id",l) :
                 self.file_name += self.student_data[l]
-                self.file_path = students_folder + str(self.file_name)
+                self.file_path = students_folder + str(self.file_name) + ".txt"
     def get_marks(self):
         for l in self.keylist :
             if re.search("mark",l) :
